@@ -1,2 +1,19 @@
-- name: Github Pages Custom Deploy
-  uses: sterlingwes/gh-pages-deploy-action@v1.1
+# .github/workflows/main.yml
+
+name: Github Pages Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: sterlingwes/gh-pages-deploy-action@v1.1
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          source-directory: build/web-desktop
+          build-command: yarn build
