@@ -5,5 +5,11 @@
   "creator": {
     "version": "3.6.1"
   },
-  "description": "5 different ways to move in cocos"
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "description": "5 different ways to move in cocos",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
