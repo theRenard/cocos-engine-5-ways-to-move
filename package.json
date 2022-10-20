@@ -6,7 +6,7 @@
     "version": "3.6.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build/web-desktop"
   },
   "description": "5 different ways to move in cocos",
   "devDependencies": {
