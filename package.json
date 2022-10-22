@@ -8,7 +8,7 @@
   "scripts": {
     "deploy": "gh-pages -d build/web-desktop"
   },
-  "description": "5 different ways to move in cocos",
+  "description": "5 different ways to move in cocos creator",
   "devDependencies": {
     "gh-pages": "^4.0.0"
   }
