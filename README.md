@@ -6,7 +6,7 @@
 
 Demo here: https://tabanella.me/cocos-engine-5-ways-to-move/
 
-Blog here: https://renard.land/articles/cocos-creator/five-ways-to-move-in-cocos-creator/
+Article here: https://renard.land/articles/cocos-creator/fundamentals/five-ways-to-move-in-cocos-creator/
 
 From tutorial: https://www.youtube.com/watch?v=wi-RL4sUayo
 
